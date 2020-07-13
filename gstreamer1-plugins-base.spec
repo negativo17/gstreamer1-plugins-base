@@ -1,7 +1,7 @@
 %global         majorminor      1.0
 
 Name:           gstreamer1-plugins-base
-Version:        1.14.4
+Version:        1.14.5
 Release:        1%{?dist}
 Summary:        GStreamer streaming media framework base plugins
 License:        LGPLv2+
@@ -347,5 +347,8 @@ find %{buildroot} -name '*.la' -delete
 %doc %{_datadir}/gtk-doc/html/gst-plugins-base-plugins-%{majorminor}
 
 %changelog
+* Mon Jul 13 2020 Simone Caronni <negativo17@gmail.com> - 1.14.5-1
+- Update to 1.14.5.
+
 * Sun Nov 10 2019 Simone Caronni <negativo17@gmail.com> - 1.14.4-1
 - Rebase to 1.14.4.
